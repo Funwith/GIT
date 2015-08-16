@@ -91,6 +91,8 @@
 + Understanding where Git files are the stored
 
     `git add .` or `git add fileName`
+    
+    (Use `git reset HEAD <file>...` to unstage)
 
 + Viewing tracking files commit your project    
     
