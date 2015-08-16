@@ -25,11 +25,17 @@
     
     Example: 
     
-    `[user]
+    ```
+    [user]
+    
      	email = 0xgi@github.com
+     	
      	name = HaiLP
+     	
      [core]
-     	excludesfile = /home/flash/.gitignore_global`
+     
+     	excludesfile = /home/flash/.gitignore_global
+    ```
      	
     Git command: 
     
@@ -50,18 +56,39 @@
     
     Example:
     
-    `[user]
+    ```
+    [user]
      	email = 0xgi@github.com
+     	
      	name = HaiLP
+     	
      [core]
+     
      	excludesfile = /home/flash/.gitignore_global
+     	
      	editor = vim
+     	
      [color]
-     	ui = true`
+     
+     	ui = true
+    ```
      	
 + Project
 
-    my_project/.git/config
+    my_project/.git/config 
+    
+## Git auto-completion
+
+[git completion](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
+
+
+# Initializing a repository
+
+    Start doing it tracking project
+    
+    `git init`
+    
+    
     
 
 
